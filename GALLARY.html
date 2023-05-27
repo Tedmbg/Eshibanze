@@ -41,7 +41,7 @@
           .student-container{
             display:grid;
             grid-template-columns: repeat(3,350px);
-            grid-template-rows:repeat(5,300px);
+            grid-template-rows:repeat(9,300px);
             gap:10px;
             margin-left: 100px;
           }
@@ -91,6 +91,45 @@
             grid-column-start:1;
             grid-column-end:4;
             object-fit:cover;            
+          }
+          .et{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:5;
+            grid-row-end:7;
+          }
+          .nin{
+            grid-area:5/2/6/3;
+          }
+          .tn{
+            grid-area:5/3/7/4;
+          }
+          .elv{
+            grid-area:6/2/8/3;
+          }
+          .twl{
+            grid-area:7/1/8/2;
+          }
+          .thn{
+            grid-area:7/3/8/4;
+          }
+          .frn{
+            grid-area:8/1/10/2;
+          }
+          .fvn{
+            grid-area:8/2/9/3;
+          }
+          .sxn{
+            grid-area:8/3/10/4;
+          }
+          .prefects-img{
+            display:flex;
+            justify-content: space-around;
+            gap:1px;
+          }
+          .pri-txt{
+            align-content: center;           
+            font-size:larger;           
           }
           .names{
             color:#4C2E5C;
@@ -204,8 +243,14 @@
           </div>
         </div>        
        </div>
-       
-   
+       <hr/>
+       <!--Prefects image-->
+       <div class="prefects-img mt-3">
+        <img class="std-img ml-5" src="./images/New Images/prefects.jpeg" alt="school prefects"/>
+        <p class="pri-txt mr-5">Prefects</p>
+       </div>
+       <hr/>
+      <!--Student images-->
       <div class="student-container mt-3 ">
         <div class="one students">
           <img class="std-img" src="./images/students1.jpg" alt="Students picture"/>
@@ -227,8 +272,36 @@
           <img class="std-img" src="./images/students6.jpeg" alt="Students picture"/>
         </div>
         <div class="sv students">
-          <img class="..." src="./images/students7.jpeg" alt="Students picture"/>
+          <img class="std-img" src="./images/students7.jpeg" alt="Students picture"/>
         </div>
+        <div class="et students">
+          <img class="std-img" src="./images/New Images/Schoolfarm.jpeg" alt="image of school farm"/>
+        </div>
+        <div class="nin students">
+          <img class="std-img" src="./images/New Images/Schoolfarm6.jpeg" alt="students at the farm"/>
+        </div>
+        <div class="tn students">
+          <img class="std-img" src="./images/New Images/Schoolfarm2.jpeg" alt="school farm"/>
+        </div>
+        <div class="elv students">
+          <img class="std-img" src="./images/New Images/studentslab1.jpeg" alt="school chemisty lab"/>
+        </div>
+        <div class="twl students">
+          <img class="std-img" src="./images/New Images/studentslab2.jpeg" alt="students lab 2"/>
+        </div>
+        <div class=" thn students">
+          <img class="std-img" src="./images/New Images/studentslab3.jpeg" alt="students lab 3"/>
+        </div>
+        <div class="frn students">
+          <img class="std-img" src="./images/New Images/studentslab4.jpeg" alt="students at the lab"/>
+        </div>
+        <div class="fvn students">
+          <img class="std-img" src="./images/New Images/studentslab5.jpeg" alt="students performing titration in the lab"/>
+        </div>
+        <div class="sxn students">
+          <img class="std-img" src="./images/New Images/studentslab7.jpeg" alt="students asking question in the lab"/>
+        </div>
+       
         
       </div>        
     </body>
